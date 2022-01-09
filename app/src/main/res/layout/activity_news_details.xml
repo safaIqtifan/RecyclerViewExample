@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#9CD8D4D4"
+    tools:context=".NewsDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Baseball"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:background="@drawable/baseball"
+            android:gravity="bottom"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="bottom"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nike Enters 10-Years Partnership With Major League Baseball"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:gravity="bottom"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
